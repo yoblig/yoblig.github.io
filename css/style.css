@@ -1,0 +1,23 @@
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+#container {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  background: #d3d3d3;
+  padding: 10px;
+}
+#divider{
+  height: 5px;
+  background: #3e3e3e;
+  margin-top:50px;
+}
+#work li, #done li {
+  list-style:none;
+  padding: 8px 0;
+}
+
+.strikeThrough{
+  text-decoration: line-through;
+}
