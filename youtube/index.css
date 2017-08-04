@@ -6,3 +6,9 @@ h1 {
 .alignRight{
     text-align: right;
 }
+li > img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 125px; /* Set a small width */
+}
