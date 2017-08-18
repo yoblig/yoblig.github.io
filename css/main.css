@@ -1,47 +1,56 @@
-.container {
-	margin: 3em auto;
-	width: 600px;
+html, body {
+	height: 100%;
+	font-size: 16px;
+	background: #e2e6e9; /* url('../img/pattern.jpg') center center;*/
+	font-family: 'Archivo', sans-serif;
 }
 
-.hidden {
-	display: none;
-}
-
-.left {
-	float: left;
-}
-
-.stack-image {
-	background: url('../images/stack-icon.png') no-repeat center center;
-	width: 200px;
-	height: 200px;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+/* SECTION COVER */
+#cover {
+	height: 100%;
+	background: url('../img/bkgd.jpg') center;
 	background-size: cover;
-	margin-right: 1em;
+}
+
+.wall-sticker{
+	font-size: 1rem;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	background: rgba(0,0,0,0.4);
+	padding: 15rem 1rem 1rem;
+	height: 100%;
+}
+.wall-sticker h1{
+	display: inline;
+}
+.wall-sticker p{
+	margin-bottom: 0;
+}
+.wall-sticker hr{
+	margin-top: 0;
+}
+.btn-lg {
+	background-color: transparent;
 	border-radius: 5px;
+	border: 1px solid rgba(71,118,122, 1);
+}
+.btn-lg:hover, .btn-lg:active, .btn-lg:focus {
+	background-color: rgba(71,118,122, 1);
+	border: 1px solid rgba(71,118,122, 0);
 }
 
-.intro {
-	margin-bottom: 1em;
+.motto {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 6rem;
+	margin-top: 150px;
+	margin-left: 200px;
+	text-align: center;
 }
-
-.stack {
-	clear: both;
+.fa-chevron-down {
+	font-size: 3rem;
+	color: white;
 }
-
-.inspiration { 
-	margin-left: 3em;
-}
-
-.result {
-	border: 1px solid black;
-	padding: 5px;
-	margin: 0 auto 1em auto;
-}
-
-.error {
-	background-color: #F78181;
-	padding: 1em;
+.fa-chevron-down:hover {
+	color: rgba(71,118,122, 1);
+	transition: 0.3s;
 }
