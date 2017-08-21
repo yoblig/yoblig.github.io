@@ -202,9 +202,40 @@ html, body {
 	padding: 140px 0;
 	background-size: cover;
 	color: white
-	
 }
 
+/* Projects */
+#projects {
+	padding: 5rem 0;
+}
+#projects h2 {
+	text-align: center;
+}
+.card {
+	margin-top: 3rem;
+}
+.card-block {
+
+}
+.card-text {
+
+}
+.card-link {
+	color: #8ec1c0;
+}
+.card-link:hover {
+	color: #538784;
+	transition: 0.3s;
+}
+.card img {
+	height: 180px;
+	width: 415px;
+	transition: 0.5s;
+}
+.card img:hover {
+	transform: scale(0.98);
+	transition: 0.5s;
+}
 
 
 
