@@ -30,6 +30,7 @@ html, body {
 }
 .wall-sticker p{
 	margin-bottom: 0;
+	color: white;
 }
 .wall-sticker hr{
 	margin-top: 0;
@@ -69,14 +70,17 @@ html, body {
 .navbar-brand {
 	font-family: 'Montserrat', sans-serif;
 	padding-right: 15px;
+	color: white;
 }
 #main-nav li a {
 	border-bottom: 1px solid transparent;
-	color: black;
+	color: darkslategray;
 }
 #main-nav li a:hover  {
-	border-bottom: 1px solid rgba(142, 193, 192, 1);
+	border-bottom: 1px solid darkslategray;
 	transition: 0.5s;
+	color: black;
+	font-weight: bold;
 }
 
 /* Features */
@@ -213,6 +217,7 @@ html, body {
 }
 .card {
 	margin-top: 3rem;
+	background: #e2e6e9;
 }
 .card-block {
 
