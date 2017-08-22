@@ -220,7 +220,9 @@ html, body {
 	background: #e2e6e9;
 }
 .card-block {
-
+	padding: 1.25rem;
+}
+.card-title {
 }
 .card-text {
 
@@ -234,7 +236,7 @@ html, body {
 }
 .card img {
 	height: 180px;
-	width: 415px;
+	width: 348px;
 	transition: 0.5s;
 }
 .card img:hover {
