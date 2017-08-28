@@ -84,8 +84,8 @@ html, body {
 	font-weight: bold;
 }
 
-/* Features */
-.section-features {
+/* Skills */
+.section-skills {
 	padding: 5rem 0;
 	background: url('../img/pattern.jpg') center center;
 }
@@ -111,7 +111,6 @@ html, body {
 }
 
 /* Timeline */
-
 .section-timeline {
     background-color: white;
     padding-top: 5rem;
@@ -287,33 +286,3 @@ footer p {
 	color: white;
 	transition: 0.3s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer */
