@@ -10,6 +10,7 @@ html, body {
 .heading,
 .under-heading {
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* Cover */
@@ -207,6 +208,9 @@ html, body {
 	background-size: cover;
 	color: white
 }
+.objective {
+	font-family: 'Montserrat', sans-serif;
+}
 
 /* Projects */
 #projects {
@@ -244,9 +248,45 @@ html, body {
 	transition: 0.5s;
 }
 
+/* Footer */
+footer {
+	background: #222;
+	padding-bottom: 10px;
+	position: relative;
+	text-align: center;
+}
+footer p {
+	color: #888;
+	font-size: 10px;
+	margin-top: 45px;
+	text-align: center;
+}
 
-
-
+.social-links {
+	list-style: none;
+}
+.social-links li {
+	display: inline-block;
+	margin-top: 30px;
+}
+.social-links li a:link,
+.social-links li a:visited {
+	text-decoration: none;
+	border: 0;
+	color: #888;
+}
+.fa-linkedin-square:hover {
+	color: #0077B5;
+	transition: 0.2s;
+}
+.fa-chevron-up {
+	margin-top: 35px;
+		color: rgba(142, 193, 192, 1);
+}
+.fa-chevron-up:hover {
+	color: white;
+	transition: 0.3s;
+}
 
 
 
