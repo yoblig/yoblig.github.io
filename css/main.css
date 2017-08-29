@@ -51,7 +51,6 @@ html, body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 6rem;
 	margin-top: 150px;
-	margin-left: 200px;
 	text-align: center;
 }
 .fa-chevron-down {
@@ -203,12 +202,20 @@ html, body {
 #parralax {
 	text-align: center;
 	background: url('../img/bkgd.jpg') center repeat fixed;
-	padding: 140px 0;
 	background-size: cover;
 	color: white
 }
 .objective {
 	font-family: 'Montserrat', sans-serif;
+	padding: 150px;
+}
+.bkgd {
+	font-size: 1rem;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	background: rgba(0,0,0,0.4);
+	padding: 140px 0;
+	height: 100%;
 }
 
 /* Projects */
@@ -305,8 +312,7 @@ footer p {
 }
 
 /* Responsive */
-
-@media (max-width: 769px) {
+@media (max-width : 480px){
 	.motto {
 		color: white;
 		margin-left: 0;
