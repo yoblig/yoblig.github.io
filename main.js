@@ -1,1 +1,1 @@
-Get MONEY
+// initiate app

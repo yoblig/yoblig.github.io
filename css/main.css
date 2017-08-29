@@ -28,6 +28,7 @@ html, body {
 	background: rgba(0,0,0,0.4);
 	padding: 15rem 1rem 1rem;
 	height: 100%;
+	text-align: center;
 }
 .wall-sticker p{
 	margin-bottom: 0;
@@ -81,6 +82,7 @@ html, body {
 	transition: 0.5s;
 	color: black;
 	font-weight: bold;
+	background: none;
 }
 
 /* Skills */
@@ -312,25 +314,32 @@ footer p {
 }
 
 /* Responsive */
-@media (max-width : 480px){
-	.motto {
-		color: white;
-		margin-left: 0;
-	}
-	.timeline > li > .timeline-panel {
-		width: 100%;
-		margin-bottom: 100px;
-	}
-	.timeline > li > .timeline-badge {
-		top: -60px;
-	}
-	.timeline > li:not(.timeline-inverted) {
-		padding-right: 0;
-	}
-	.timeline > li.timeline-inverted {
-		padding-left: 0;
-	}
-	.timeline:before {
-		display: none;
-	}
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.motto {
+			color: white;
+			margin-left: 0;
+		}
+		.timeline > li > .timeline-panel {
+			width: 100%;
+			margin-bottom: 100px;
+		}
+		.timeline > li > .timeline-badge {
+			top: -60px;
+		}
+		.timeline > li:not(.timeline-inverted) {
+			padding-right: 0;
+		}
+		.timeline > li.timeline-inverted {
+			padding-left: 0;
+		}
+		.timeline:before {
+			display: none;
+		}
+		.card img {
+			height: auto;
+		}
+
 }
