@@ -239,7 +239,7 @@ html, body {
 }
 .card img {
 	height: 180px;
-	width: 348px;
+	width: 100%;
 	transition: 0.5s;
 }
 .card img:hover {
@@ -263,6 +263,7 @@ footer p {
 
 .social-links {
 	list-style: none;
+	padding-left: 0;
 }
 .social-links li {
 	display: inline-block;
@@ -285,4 +286,45 @@ footer p {
 .fa-chevron-up:hover {
 	color: white;
 	transition: 0.3s;
+}
+
+
+/* Animate */
+.js-wp-1 {
+    opacity: 0;
+}
+
+.js-wp-1.animated {
+    opacity: 1;
+}
+.js-wp-project, .js-wp-work-right-a, .js-wp-work-left-a, .js-wp-work-right-b, .js-wp-work-left-b {
+    opacity: 0;
+}
+.js-wp-project.animated, .js-wp-work-right-a.animated , .js-wp-work-left-a.animated, .js-wp-work-right-b.animated , .js-wp-work-left-b.animated  {
+    opacity: 1;
+}
+
+/* Responsive */
+
+@media (max-width: 769px) {
+	.motto {
+		color: white;
+		margin-left: 0;
+	}
+	.timeline > li > .timeline-panel {
+		width: 100%;
+		margin-bottom: 100px;
+	}
+	.timeline > li > .timeline-badge {
+		top: -60px;
+	}
+	.timeline > li:not(.timeline-inverted) {
+		padding-right: 0;
+	}
+	.timeline > li.timeline-inverted {
+		padding-left: 0;
+	}
+	.timeline:before {
+		display: none;
+	}
 }
