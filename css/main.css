@@ -318,6 +318,15 @@ footer p {
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
+		.heading {
+			font-size: 60px;
+		}
+		.wall-sticker p {
+			font-size: 24px;
+		}
+		.wall-sticker h1 {
+			font-size: 40px;
+		}
 		.motto {
 			color: white;
 			margin-left: 0;
@@ -341,5 +350,19 @@ footer p {
 		.card img {
 			height: auto;
 		}
-
+		.square {
+			font-size: 50px;
+		}
+		.objective p {
+			font-size: 32px;
+		}
+		.timeline-heading h4, .card-block h4  {
+			font-size: 34px;
+		}
+		.timeline-heading h5, .card-block h6 {
+			font-size: 30px;
+		}
+		.timeline-body {
+			font-size: 24px;
+		}
 }
